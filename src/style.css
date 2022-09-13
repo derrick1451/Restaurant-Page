@@ -1,0 +1,120 @@
+body {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    background-image: url(/src/icon.jpg);
+    background-position: center;
+    background-color:transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+header nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 50px;
+}
+ header nav button {
+    font-size: 1.2rem;
+    padding: 9px 20px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    background-color: #f87171;
+}
+header nav button:hover {
+    background-color:#ef4444;
+    color: black;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+}
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 10px;
+    padding: 20px;
+}
+.home-page h1 {
+    color: #f87171;
+}
+.home-page p {
+    width: 70%;
+    font-size: 1.5rem;
+    padding: 20px;
+    line-height: 1.5;
+    color: #ef4444;
+    font-weight: 400;
+}
+.home-page button {
+    padding:10px 15px;
+    border: none;
+    background-color: 
+    #1eb6f8;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 8px;
+}
+.home-page button:hover {
+    background-color: #0369a1 ;
+    color: black;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.menu h2 {
+    color: #f87171;
+    font-size: 1.8rem;
+}
+.menu p {
+    width: 30%;
+    padding: 10px;
+    color: #ef4444;
+    font-size: 1.3rem;
+    font-style: italic;
+}
+.menu h3 {
+    color: #ef4444;
+}
+.list-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+li {
+    list-style: none;
+    color: #f8fafc;
+    font-size: 1.2rem;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contacts h1 {
+    color: #f87171;
+}
+.contacts p {
+    color: #ef4444;
+    width: 40%;
+    font-size: 1.5rem;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
